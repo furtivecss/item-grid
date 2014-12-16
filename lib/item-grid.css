@@ -1,0 +1,25 @@
+.item-grid-row {
+  border: 0;
+  border-top: thin solid var(--item-grid-border-color, #f1f1f1);
+}
+
+.item-grid-row:first-child {
+  border: 0;
+}
+
+.item-grid-row:last-child {
+  border-bottom: 0;
+}
+
+.item-grid-object {
+  border-left: thin solid var(--item-grid-border-color, #f1f1f1);
+}
+
+.item-grid-object:first-child {
+  border-left: 0;
+}
+
+.item-grid-object:hover {
+  background-color: var(--item-grid-bg-hover, #f9f9f9);
+  cursor: pointer;
+}
